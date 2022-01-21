@@ -13,8 +13,8 @@ http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2021/index.html
 {
   "code": "行政区划12位数字代码",
   "name": "名称全称",
-  "parent": "父级行政区划的代码", // 省级为null
-  "children": [...], // 子行政区划，县级为空
+  "parent": "父级行政区划的代码, 省级为null",
+  "children": [{"code": ..., "name": ..., "parent": ..., "children": ...}],
 }
 ```
 
@@ -27,6 +27,6 @@ http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2021/index.html
 {
   "code": "行政区划12位数字代码",
   "name": "名称全称",
-  "children": [...], // 子行政区划，县级为没有该字段。
+  "children": [{"code": ..., "name": ..., "parent": ..., "children": ...}],
 }
 ```
