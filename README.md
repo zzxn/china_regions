@@ -3,7 +3,7 @@
 
 ## 数据格式
 
-### provinces.json
+### provinces.json (稍后上传)
 
 从国家统计局爬取的2021最新版数据。
 
@@ -21,7 +21,7 @@ http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2021/index.html
 ### provinces-slim.json
 
 从国家统计局爬取的2021最新版数据。
-不包含 `"parent"` 和 `"code"` 字段，只有50K，可以在前端使用。
+不包含 `"parent"` 和 `"code"` 字段，只有85K，可以在前端使用。
 
 ```json
 {
